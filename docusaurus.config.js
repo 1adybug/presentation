@@ -74,6 +74,16 @@ const config = {
                     // },
                     { to: "/blog", label: "博客", position: "left" },
                     {
+                        href: "https://www.npmjs.com/package/deepsea-tools",
+                        label: "Deepsea Tools",
+                        position: "right"
+                    },
+                    {
+                        href: "https://www.npmjs.com/package/deepsea-components",
+                        label: "Deepsea Components",
+                        position: "right"
+                    },
+                    {
                         href: "https://github.com/1adybug",
                         label: "GitHub",
                         position: "right"
@@ -84,11 +94,11 @@ const config = {
                 style: "dark",
                 links: [
                     // {
-                    //     title: "Docs",
+                    //     title: "博客",
                     //     items: [
                     //         {
-                    //             label: "Tutorial",
-                    //             to: "/docs/intro"
+                    //             label: "博客",
+                    //             to: "/blog"
                     //         }
                     //     ]
                     // },
